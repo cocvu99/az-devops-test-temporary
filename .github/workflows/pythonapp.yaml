@@ -15,7 +15,7 @@ jobs:
         python-version: 3.7.17
     - name: Install dependencies
       run: |
-        pip install requirements.txt
+        make install
     - name: Lint with pylint
       run: |
    
