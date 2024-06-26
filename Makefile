@@ -1,5 +1,5 @@
 setup:
-	python3 -m venv ~/.az-devops-test-temporary
+	python3 -m venv .az-devops-test-temporary
 
 install:
 	pip install --upgrade pip &&\
