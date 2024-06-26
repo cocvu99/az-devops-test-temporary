@@ -20,7 +20,7 @@ def scale(payload):
 
 @app.route("/")
 def home():
-    html = "<h3>Sklearn Prediction Home</h3>"
+    html = "<h3>Sklearn Prediction Home TESTING </h3>"
     return html.format(format)
 
 # TO DO:  Log out the prediction value
@@ -29,8 +29,6 @@ def predict():
     # Performs an sklearn prediction
     try:
         # Load pretrained model as clf. Try any one model. 
-        # clf = joblib.load("./Housing_price_model/LinearRegression.joblib")
-        # clf = joblib.load("./Housing_price_model/StochasticGradientDescent.joblib")
         clf = joblib.load("./Housing_price_model/GradientBoostingRegressor.joblib")
     except:
         LOG.info("JSON payload: %s json_payload")
