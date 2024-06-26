@@ -27,7 +27,7 @@ stages:
   jobs:
   - job: BuildJob
     pool:
-      pool: poolggwp
+      poolggwp
     steps:
     - task: UsePythonVersion@0
       inputs:
@@ -64,7 +64,7 @@ stages:
   jobs:
   - deployment: DeploymentJob
     pool:
-      pool: poolggwp
+      poolggwp
     environment: $(environmentName)
     strategy:
       runOnce:
