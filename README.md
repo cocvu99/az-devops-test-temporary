@@ -1,6 +1,7 @@
 # Overview
 
 This project help you to know about deploy on azure , build CI/CD pipeline , test API app service , cloud shell.
+ ![alt text][Badge]
 
 ## Project Plan
 <TODO: Project Plan
@@ -8,7 +9,7 @@ This project help you to know about deploy on azure , build CI/CD pipeline , tes
 * A link to a Trello board for the project
 https://trello.com/b/iZRpZVWd/udacity-azure-devops-building-ci-cd-pipeline
 * A link to a spreadsheet that includes the original and final project plan>
-https://docs.google.com/spreadsheets/d/16qHrvlyUh03oSzzx5pxywUrnXsRSKzHq3LwkQEVA_yQ/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1hA4k7orHzZA6g1LVb-WnYH0zPMoDqeDH1R21_-CroDQ/edit?usp=sharing
 
 
 ## Instructions
@@ -83,6 +84,9 @@ To improve you need to automatically update your github repo Starter Flask into 
 ## Demo 
 
 <TODO: Add link Screencast on YouTube>
-https://youtu.be/Ptd4zKkusS4
+https://youtu.be/SeN8LA2rWtU
 
 
+
+
+[Badge]: https://github.com/cocvu99/az-devops-test-temporary/actions/workflows/pythonapp.yaml/badge.svg
